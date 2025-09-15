@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Mono+One&display=swap');
+
+/* Estructura base para mantener el footer abajo */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: #72CDD2;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Encabezado con textura urbana */
+header {
+  text-align: center;
+  padding: 2rem;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  background-blend-mode: multiply;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(2px 2px 2px #000);
+}
+
+/* Título principal estilo grafitti */
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+  color: #F11B93;
+  text-shadow: 2px 2px #000;
+  margin: 0;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #F11B93;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Subtítulo o lema */
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+/* Contenido principal que se expande */
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Título de sección */
+.event-list h2 {
+  color: #F11B93;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #000;
+}
+
+h2 {
+  color: #F11B93;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #000;
+}
+
+/* Lista de eventos */
+ul#events {
+  list-style: none;
+  padding: 0;
+}
+
+ul#events li {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 5px solid #F11B93;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Pie de página fijo al fondo */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #F11B93;
+  font-size: 0.9rem;
+}
+
+.guest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.guest-card {
+  display: block;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #F11B93;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.guest-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #F11B93;
+}
+
+.guest-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px #000;
+}
+
+.guest-card h3 {
+  font-family: 'Permanent Marker', cursive;
+  color: #F11B93;
+  margin-bottom: 0.5rem;
+}
+
+.lhokura-highlight {
+  color: #FF6FC1; /* Rosa claro */
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
